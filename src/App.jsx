@@ -75,7 +75,7 @@ const App = () => {
   ]);
   const [inputValue, setInputValue] = useState('');
   const [isLoading, setIsLoading] = useState(false);
-  const [apiKey] = useState('AIzaSyByWgyFXEQRfqh6KtKdGf1p644N6Mbpa88'); // Keep your key secure
+  const [apiKey] = useState('your google ai studio key'); // Keep your key secure
 
   const chatEndRef = useRef(null);
 
